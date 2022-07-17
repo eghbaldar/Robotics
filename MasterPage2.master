@@ -1,0 +1,50 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage2.master.vb" Inherits="MasterPage2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>شرکت نوآوران روباتیک گیلان</title>
+    <link rel="stylesheet" type="text/css" href="Content/CSS/css_ff.css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+
+
+
+
+
+
+<div id="body">
+        <div id="header">
+        </div>
+        <div id="menu">
+                <a href="default.aspx" class="cMnu"><div class="change">صفحه اصلی</div></a>          
+                <a href="news.aspx" class="cMnu"><div class="change">اخبار</div></a>
+                <a href="Topic.aspx" class="cMnu"><div class="change">اطلاعیه ها</div></a>
+                <a href="About.aspx" class="cMnu"><div class="change">معرفی شرکت</div></a>
+                <a href="contact.aspx" class="cMnu"><div class="change">تماس با ما</div></a>
+        </div>
+        <div id="center">
+            <div id="about">
+                     <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            </div>
+            <div id="news_topic">
+            </div>
+        </div>
+        <div id="footer">
+                .کليه حقوق برای شرکت نوآوران روباتیک گیلان محفوظ مي باشد<br/>
+            Powered By <a href="http://caspianteam.com" style="text-decoration: none; color: #CCC;">
+                CaspianTeam.com</a> © 2011-2012
+        </div>
+    </div>
+
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* Eghbaldar.com */
+body, div, p, h1, h2, h3, h4, ul, li, table{
+margin:0;
+padding:0;
+border:none;
+}
+body{
+padding:0px;
+background-image:url(../images/images/bg.gif);
+background-repeat:repeat-x;
+background-color:#27596a;
+}
+#body{
+margin: 5px auto 20px auto;
+width:909px;
+}
+#header{
+	float:right;
+	margin-top:-6px;
+	margin-right:20px;
+	background-image:url(../images/images/header.jpg);
+	width:869px;
+	height:158px;
+}
+#menu{
+		margin-right:35px;
+	float:right;
+	background-color:#325f6e;
+	width:838px;
+	height:40px;
+}
+#center{
+	padding:3px;
+	direction:rtl;
+	margin-right:35px;
+	float:right;
+	background-color:#FFF;
+	width:832px;
+	height:100%;
+	
+}
+#menu{direction:rtl;}
+.change{
+	float:right;
+	padding:7px;
+	width:100px;
+	height:40px;
+	background-image:url(../images/images/mnu1.gif);
+		text-align:center;
+}
+.change:hover{
+	background-image:url(../images/images/mnu2.gif);
+		width:100px;
+	height:40px;
+}
+.cMnu{
+margin-top:10px;
+font-size:12px;
+font-family:Tahoma, Geneva, sans-serif;
+color:#fff;
+text-decoration:none;
+margin-top:5px;
+}
+.cMnu:hover{color:#000;}
+#footer{
+	padding:7px;
+	text-align:center;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	color:#CCC;
+	float:right;
+	background-color:#204e5e;
+	width:825px;
+	height:20px;
+			margin-right:35px;
+}
+
+/*-------------------------------------*/
+#about{
+
+float:right;
+	width:830px;
+	height:100%;
+}
+#news_topic{
+	float:right;
+	width:830px;
+	height:100%;
+}
+#news{	float:right;	
+background-image:url(../images/images/bgN.gif);
+background-repeat:repeat-x;
+
+	width:200px;
+	height:100%;
+	}
+	
+#topic{
+	margin-right:10px;
+	background-image:url(../images/images/bgN.gif);
+background-repeat:repeat-x;
+	float:right;
+
+width:200px;
+height:100%;
+}
+.tt{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	color:#FFF;
+	padding:4px;
+}
+.content{
+	width:200px;
+	height:100%;
+}
+
